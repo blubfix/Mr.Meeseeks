@@ -18,10 +18,10 @@
 #include "AnotherIFTTTWebhook.h"
  
 // Set WiFi credentials
-#define WIFI_SSID "Ich hab Durst!"
-#define WIFI_PASS "This_is_1_Shisha!"
+#define WIFI_SSID "Blubphone"
+#define WIFI_PASS "hoguki23234"
  
-#define IFTTT_Key "cIqtA3a-UvF-sAiGqAOslR"
+#define IFTTT_Key "cIuCzYp9aaj5jBiWh3myg6"
 #define IFTTT_Event "button_pressed" // or whatever name you have chosen
  
 void setup() {
