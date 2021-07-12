@@ -5,11 +5,13 @@
     - ifttt.com
       - Webhooks https://ifttt.com/maker_webhooks
       - Alexa Actions by mkZense https://ifttt.com/AlexaActionsByMkzense
+        https://mkzense.com/
     - AnotherIFTTTWebhook libary by Neil Webber
       https://github.com/Siytek/AnotherIFTTTWebhook
-  
-
-*/
+  Accounts you'll need:
+    - Amazon Alexa Account
+    - iftt Account
+  */
 
 
 #include <Arduino.h> //Necessary if you are coding in Visual Studio Code with Platformio extension
@@ -43,7 +45,7 @@ void setup() {
   Serial.println(WiFi.localIP());
  
   // Send Webook to IFTTT
-  send_webhook(IFTTT_Event,IFTTT_Key,"I need Mr.Meeseeks!","25","value 3");
+  send_webhook(IFTTT_Event,IFTTT_Key,"I need Mr.Meeseeks!","25","value 1");
 }
 void loop(){
   ESP.deepSleep(0);
